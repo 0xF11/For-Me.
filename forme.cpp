@@ -1,6 +1,7 @@
-// This allows me to use windows.h in this program
+#DEFINE NOMINMAX // This allows me to use windows.h in this program
 #include <iostream>
 #include "definefunction.h"
+#include <windows.h>
 int main()
 {
 	const char* Stuff = "Hello";
